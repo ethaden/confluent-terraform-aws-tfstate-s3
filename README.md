@@ -2,6 +2,8 @@
 This terraform configuration sets up an AWS S3 bucket which can be used to store Terraform remote state.
 Note, that additional measures (e.g. locking) might be required if this state store is accessed concurrently by multiple users.
 
+CAUTION: Everything contained in this repository is not supported by Confluent.
+
 ## Precondition
 Obviously, you need to have an AWS account with proper credentials set up.
 
